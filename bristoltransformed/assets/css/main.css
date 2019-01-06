@@ -1693,7 +1693,7 @@ input, select, textarea {
 	#nav {
 		position: absolute;
 		right: 2em;
-		top: 0;
+		top: 2em;
 		line-height: 5.5em;
 	}
 
@@ -1878,7 +1878,7 @@ input, select, textarea {
 		position: relative;
 		border-radius: 10px;
 		background: rgba(255, 255, 255, 0.1);
-		padding: 0.75em;
+		padding: 5em 0 1em 0;
 		margin-bottom: 0;
 	}
 
