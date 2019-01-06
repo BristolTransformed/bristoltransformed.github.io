@@ -1433,10 +1433,6 @@ input, select, textarea {
 	input[type="reset"],
 	button,
 	.button {
-		background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)), url("images/bg02.png");
-		background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)), url("images/bg02.png");
-		background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)), url("images/bg02.png");
-		background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)), url("images/bg02.png");
 		-moz-transition: background-color 0.2s ease-in-out;
 		-webkit-transition: background-color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out;
@@ -1444,13 +1440,11 @@ input, select, textarea {
 		-webkit-appearance: none;
 		position: relative;
 		display: inline-block;
-		background-color: #cf5050;
+		background-color: #E74252;
 		border-radius: 8px;
-		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.35), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.35);
 		text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5);
 		color: #fff !important;
 		text-decoration: none;
-		text-transform: uppercase;
 		font-weight: 800;
 		font-size: 0.95em;
 		letter-spacing: 0.075em;
@@ -1511,7 +1505,7 @@ input, select, textarea {
 		input[type="reset"].alt,
 		button.alt,
 		.button.alt {
-			background-color: #C62131;
+			background-color: #E74252;
 		}
 
 			input[type="button"].alt:hover,
@@ -1527,7 +1521,7 @@ input, select, textarea {
 			input[type="reset"].alt:active,
 			button.alt:active,
 			.button.alt:active {
-				background-color: #C62131;
+				background-color: #E74252;
 			}
 
 /* List */
@@ -1709,7 +1703,6 @@ input, select, textarea {
 			#nav > ul > li > a, #nav > ul > li > span {
 				color: #fff;
 				text-decoration: none;
-				text-transform: uppercase;
 				font-weight: 800;
 				font-size: 0.95em;
 				letter-spacing: 0.075em;
@@ -1749,9 +1742,8 @@ input, select, textarea {
 		}
 
 		.dropotron a, .dropotron span {
-			color: #aaa;
+			color: #fff;
 			text-decoration: none;
-			text-transform: uppercase;
 			font-weight: 800;
 			font-size: 0.8em;
 			letter-spacing: 0.075em;
