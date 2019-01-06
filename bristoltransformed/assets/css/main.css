@@ -1978,7 +1978,7 @@ input, select, textarea {
 		/* Wrappers */
 
 			#header-wrapper {
-				padding: 2em 0;
+				padding: 7em 0;
 			}
 
 			body.homepage #header-wrapper {
@@ -1997,7 +1997,7 @@ input, select, textarea {
 
 			#banner {
 				width: 100%;
-				padding: 9em 0 1em 0;
+				padding: 9em 0 5em 0;
 			}
 
 				#banner h2 {
@@ -2242,7 +2242,7 @@ input, select, textarea {
 		/* Banner */
 
 			#banner {
-				padding: 9em 0 1em 0;
+				padding: 9em 0 5em 0;
 			}
 
 				#banner br {
