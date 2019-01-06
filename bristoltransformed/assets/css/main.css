@@ -1978,7 +1978,7 @@ input, select, textarea {
 		/* Wrappers */
 
 			#header-wrapper {
-				padding: 7em 0;
+				padding: 5em 0 1em 0;
 			}
 
 			body.homepage #header-wrapper {
