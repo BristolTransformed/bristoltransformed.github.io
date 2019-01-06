@@ -1945,6 +1945,7 @@ input, select, textarea {
 		}
 
 	#copyright {
+		background: #E74252;
 		border-top: solid 1px;
 		border-color: #444;
 		border-color: rgba(255, 255, 255, 0.075);
