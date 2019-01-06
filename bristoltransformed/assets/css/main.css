@@ -1433,6 +1433,10 @@ input, select, textarea {
 	input[type="reset"],
 	button,
 	.button {
+		-moz-transition: background-color 0.2s ease-in-out;
+		-webkit-transition: background-color 0.2s ease-in-out;
+		-ms-transition: background-color 0.2s ease-in-out;
+		transition: background-color 0.2s ease-in-out;
 		-webkit-appearance: none;
 		position: relative;
 		display: inline-block;
@@ -1721,6 +1725,10 @@ input, select, textarea {
 			}
 
 	.dropotron {
+		background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0)), url("images/bg02.png");
+		background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0)), url("images/bg02.png");
+		background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0)), url("images/bg02.png");
+		background-image: linear-gradient(top, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0)), url("images/bg02.png");
 		position: relative;
 		background-color: #E74252;
 		background-color: rgba(231, 66, 82, 0.9);
@@ -1819,8 +1827,9 @@ input, select, textarea {
 /* Wrappers */
 
 	#header-wrapper {
-		background: #fff;
-
+		background-position: top left, center center;
+		background-size: auto, cover;
+		padding: 3em 0;
 	}
 
 	#main-wrapper {
