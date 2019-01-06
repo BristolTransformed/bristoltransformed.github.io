@@ -103,7 +103,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		font-family: 'Oswald', sans-serif;
+		font-family: 'Open Sans', sans-serif;
 		color: #7b818c;
 		font-weight: 400;
 		font-size: 11pt;
@@ -1444,6 +1444,7 @@ input, select, textarea {
 		text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5);
 		color: #fff !important;
 		text-decoration: none;
+		font-family: 'Oswald', sans-serif;
 		font-weight: 600;
 		font-size: 1.3em;
 		letter-spacing: 0.03em;
@@ -1702,6 +1703,7 @@ input, select, textarea {
 			#nav > ul > li > a, #nav > ul > li > span {
 				color: #fff;
 				text-decoration: none;
+				font-family: 'Oswald', sans-serif;
 				font-weight: 600;
 				font-size: 1.3em;
 				letter-spacing: 0.03em;
@@ -1742,6 +1744,7 @@ input, select, textarea {
 			color: #fff;
 			text-decoration: none;
 			text-transform: uppercase;
+			font-family: 'Oswald', sans-serif;
 			font-weight: 600;
 			font-size: 1em;
 			letter-spacing: 0.075em;
@@ -1768,6 +1771,7 @@ input, select, textarea {
 			border-right: 0;
 			color: #fff;
 			color: rgba(255, 255, 255, 0.75);
+			font-family: 'Oswald', sans-serif;
 			font-size: 2.35em;
 			font-weight: 700;
 			line-height: 1.3em;
@@ -2066,7 +2070,8 @@ input, select, textarea {
 				#titleBar .title {
 					display: block;
 					text-transform: uppercase;
-					font-weight: 800;
+					font-family: 'Oswald', sans-serif;
+					font-weight: 600;
 					letter-spacing: 0.04em;
 					color: #fff;
 					line-height: 44px;
