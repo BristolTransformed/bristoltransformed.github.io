@@ -1927,8 +1927,8 @@ input, select, textarea {
 		}
 
 		#footer ul.divided li, #footer ul.menu li {
-			border-color: #444;
-			border-color: rgba(255, 255, 255, 0.075);
+			border-color: #7E7E7E;
+			border-color: rgba(126, 126, 126, 0.075);
 		}
 
 		#footer ul.divided li a {
