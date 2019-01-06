@@ -1444,7 +1444,7 @@ input, select, textarea {
 		-webkit-appearance: none;
 		position: relative;
 		display: inline-block;
-		background-color: #4091bf;
+		background-color: #cf5050;
 		border-radius: 8px;
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.35), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.35);
 		text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5);
@@ -1477,7 +1477,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #50a1cf;
+			background-color: #E74252;
 		}
 
 		input[type="button"]:active,
@@ -1485,7 +1485,7 @@ input, select, textarea {
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background-color: #3081af;
+			background-color: #C62131;
 		}
 
 		input[type="button"].medium,
@@ -1511,7 +1511,7 @@ input, select, textarea {
 		input[type="reset"].alt,
 		button.alt,
 		.button.alt {
-			background-color: #464a52;
+			background-color: #C62131;
 		}
 
 			input[type="button"].alt:hover,
@@ -1519,7 +1519,7 @@ input, select, textarea {
 			input[type="reset"].alt:hover,
 			button.alt:hover,
 			.button.alt:hover {
-				background-color: #565a62;
+				background-color: #E74252;
 			}
 
 			input[type="button"].alt:active,
@@ -1527,7 +1527,7 @@ input, select, textarea {
 			input[type="reset"].alt:active,
 			button.alt:active,
 			.button.alt:active {
-				background-color: #363a42;
+				background-color: #a72b37;
 			}
 
 /* List */
@@ -1737,7 +1737,7 @@ input, select, textarea {
 		background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0)), url("images/bg02.png");
 		background-image: linear-gradient(top, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0)), url("images/bg02.png");
 		position: relative;
-		background-color: #3B3E45;
+		background-color: #a72b37;
 		background-color: rgba(59, 62, 69, 0.9);
 		border-radius: 8px;
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 0px 0px 2px rgba(255, 255, 255, 0.075), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.2), 0px 2px 14px 0px rgba(0, 0, 0, 0.4);
@@ -1799,7 +1799,7 @@ input, select, textarea {
 				content: '';
 				display: block;
 				border-top: solid 1px;
-				border-color: #888;
+				border-color: #fff;
 				border-color: rgba(255, 255, 255, 0.25);
 				margin: 10px 0 1.25em 0;
 			}
@@ -1808,7 +1808,7 @@ input, select, textarea {
 				content: '';
 				display: block;
 				border-bottom: solid 1px;
-				border-color: #888;
+				border-color: #fff;
 				border-color: rgba(255, 255, 255, 0.25);
 				margin: 1.25em 0 10px 0;
 			}
