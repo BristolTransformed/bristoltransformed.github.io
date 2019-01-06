@@ -1307,7 +1307,6 @@ input, select, textarea {
 	form input[type="password"]:focus,
 	form select:focus,
 	form textarea:focus {
-		box-shadow: 0 0 2px 1px #4091bf;
 	}
 
 	form input[type="text"],
@@ -1881,7 +1880,6 @@ input, select, textarea {
 			background-color: #E74252;
 			background-color: rgba(231, 66, 82, 0.9);
 			border-radius: 8px;
-			box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.45), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.15);
 			text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5);
 		}
 
