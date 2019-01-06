@@ -1877,7 +1877,7 @@ input, select, textarea {
 		position: relative;
 		border-radius: 10px;
 		background: rgba(255, 255, 255, 0.1);
-		padding: 5em 0 1em 0;
+		padding: 4.5em 0 1em 0;
 		margin-bottom: 0;
 	}
 
@@ -1977,7 +1977,7 @@ input, select, textarea {
 		/* Wrappers */
 
 			#header-wrapper {
-				padding: 5em 0 1em 0;
+				padding: 4.5em 0 1em 0;
 			}
 
 			body.homepage #header-wrapper {
