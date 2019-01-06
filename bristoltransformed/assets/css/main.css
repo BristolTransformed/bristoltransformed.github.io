@@ -1764,7 +1764,7 @@ input, select, textarea {
 		width: 940px;
 		margin: 0 auto;
 		overflow: hidden;
-		padding: 9em 0 6em 0;
+		padding: 9em 0 1em 0;
 	}
 
 		#banner h2 {
@@ -1997,7 +1997,7 @@ input, select, textarea {
 
 			#banner {
 				width: 100%;
-				padding: 4em 0 1em 0;
+				padding: 9em 0 1em 0;
 			}
 
 				#banner h2 {
@@ -2242,7 +2242,7 @@ input, select, textarea {
 		/* Banner */
 
 			#banner {
-				padding: 2em 0 2em 0;
+				padding: 9em 0 1em 0;
 			}
 
 				#banner br {
