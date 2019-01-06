@@ -1827,9 +1827,7 @@ input, select, textarea {
 /* Wrappers */
 
 	#header-wrapper {
-		background-position: top left, center center;
-		background-size: auto, cover;
-		padding: 3em 0;
+		background: #fff;
 	}
 
 	#main-wrapper {
@@ -1887,7 +1885,7 @@ input, select, textarea {
 			position: relative;
 			height: 5.5em;
 			background-color: #E74252;
-			background-color: rgba(167, 43, 55, 0.9);
+			background-color: rgba(231, 66, 82, 0.9);
 			border-radius: 8px;
 			box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.45), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.15);
 			text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5);
@@ -2061,8 +2059,7 @@ input, select, textarea {
 				-webkit-transition: -webkit-transform 0.5s ease;
 				-ms-transition: -ms-transform 0.5s ease;
 				transition: transform 0.5s ease;
-				background-color: rgba(59, 62, 69, 0.9);
-				box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 0px 0px 2px rgba(255, 255, 255, 0.075), 0px 1px 6px 0px rgba(0, 0, 0, 0.35);
+				background-color: rgba(231, 66, 82, 0.9);
 				display: block;
 				height: 44px;
 				left: 0;
@@ -2107,7 +2104,6 @@ input, select, textarea {
 						line-height: 44px;
 						text-align: center;
 						color: #fff;
-						content: '\f0c9';
 					}
 
 					#titleBar .toggle:active {
@@ -2115,6 +2111,22 @@ input, select, textarea {
 					}
 
 			#navPanel {
+				-moz-backface-visibility: hidden;
+				-webkit-backface-visibility: hidden;
+				-ms-backface-visibility: hidden;
+				backface-visibility: hidden;
+				background-image: -moz-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35)), url("images/bg01.png");
+				background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35)), url("images/bg01.png");
+				background-image: -ms-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35)), url("images/bg01.png");
+				background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35)), url("images/bg01.png");
+				-moz-transform: translateX(-275px);
+				-webkit-transform: translateX(-275px);
+				-ms-transform: translateX(-275px);
+				transform: translateX(-275px);
+				-moz-transition: -moz-transform 0.5s ease;
+				-webkit-transition: -webkit-transform 0.5s ease;
+				-ms-transition: -ms-transform 0.5s ease;
+				transition: transform 0.5s ease;
 				background-color: #E74252;
 				display: block;
 				height: 100%;
