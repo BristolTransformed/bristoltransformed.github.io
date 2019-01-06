@@ -1764,7 +1764,7 @@ input, select, textarea {
 		width: 940px;
 		margin: 0 auto;
 		overflow: hidden;
-		padding: 9em 0 1em 0;
+		padding: 9em 0 9em 0;
 	}
 
 		#banner h2 {
@@ -1983,10 +1983,11 @@ input, select, textarea {
 
 			body.homepage #header-wrapper {
 				height: auto;
+				padding-top: 44px;
 			}
 
 			#footer-wrapper {
-				padding: 4.5em 0 4.5em 0;
+				padding: 9em 0 4.5em 0;
 			}
 
 			.wrapper {
