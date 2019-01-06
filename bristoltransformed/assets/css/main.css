@@ -1441,8 +1441,8 @@ input, select, textarea {
 		text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5);
 		color: #fff !important;
 		text-decoration: none;
-		font-weight: 800;
-		font-size: 0.95em;
+		font-weight: 600;
+		font-size: 1.3em;
 		letter-spacing: 0.03em;
 		padding: 1em 2em;
 		outline: 0;
@@ -1699,9 +1699,9 @@ input, select, textarea {
 			#nav > ul > li > a, #nav > ul > li > span {
 				color: #fff;
 				text-decoration: none;
-				font-weight: 800;
-				font-size: 0.95em;
-				letter-spacing: 0.075em;
+				font-weight: 700;
+				font-size: 1.3em;
+				letter-spacing: 0.03em;
 				padding: 0.5em 0.8em 0.5em 0.8em;
 				border-radius: 6px;
 				outline: 0;
