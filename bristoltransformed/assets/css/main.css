@@ -1527,7 +1527,7 @@ input, select, textarea {
 			input[type="reset"].alt:active,
 			button.alt:active,
 			.button.alt:active {
-				background-color: #a72b37;
+				background-color: #C62131;
 			}
 
 /* List */
@@ -1732,16 +1732,10 @@ input, select, textarea {
 			}
 
 	.dropotron {
-		background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0)), url("images/bg02.png");
-		background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0)), url("images/bg02.png");
-		background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0)), url("images/bg02.png");
-		background-image: linear-gradient(top, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0)), url("images/bg02.png");
 		position: relative;
-		background-color: #a72b37;
-		background-color: rgba(59, 62, 69, 0.9);
+		background-color: #E74252;
+		background-color: rgba(231, 66, 82, 0.9);
 		border-radius: 8px;
-		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 0px 0px 2px rgba(255, 255, 255, 0.075), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.2), 0px 2px 14px 0px rgba(0, 0, 0, 0.4);
-		text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5);
 		padding: 1.5em;
 		line-height: 2.5em;
 		min-width: 15em;
@@ -1897,13 +1891,9 @@ input, select, textarea {
 	}
 
 		#header .inner {
-			background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35)), url("images/bg02.png");
-			background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35)), url("images/bg02.png");
-			background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35)), url("images/bg02.png");
-			background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35)), url("images/bg02.png");
 			position: relative;
 			height: 5.5em;
-			background-color: #a72b37;
+			background-color: #E74252;
 			background-color: rgba(167, 43, 55, 0.9);
 			border-radius: 8px;
 			box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.45), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.15);
@@ -2139,11 +2129,7 @@ input, select, textarea {
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
 				-ms-backface-visibility: hidden;
-				backface-visibility: hidden;
-				background-image: -moz-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35)), url("images/bg01.png");
-				background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35)), url("images/bg01.png");
-				background-image: -ms-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35)), url("images/bg01.png");
-				background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35)), url("images/bg01.png");
+				backface-visibility: hidden;v
 				-moz-transform: translateX(-275px);
 				-webkit-transform: translateX(-275px);
 				-ms-transform: translateX(-275px);
@@ -2152,7 +2138,7 @@ input, select, textarea {
 				-webkit-transition: -webkit-transform 0.5s ease;
 				-ms-transition: -ms-transform 0.5s ease;
 				transition: transform 0.5s ease;
-				background-color: #303238;
+				background-color: #E74252;
 				box-shadow: inset -1px 0px 0px 0px rgba(0, 0, 0, 0.5), inset -2px 0px 0px rgba(255, 255, 255, 0.15), inset -2px 0px 10px 0px rgba(0, 0, 0, 0.35);
 				display: block;
 				height: 100%;
