@@ -1947,7 +1947,7 @@ input, select, textarea {
 	#copyright {
 		background: #E74252;
 		border-top: solid 1px;
-		border-color: #444;
+		border-color: #fff;
 		border-color: rgba(255, 255, 255, 0.075);
 		text-align: center;
 		margin-top: 2em;
@@ -1955,8 +1955,8 @@ input, select, textarea {
 		color: inherit;
 	}
 
-		#copyright a {
-			color: inherit;
+		#copyright a, li {
+			color: #fff;
 		}
 
 /* Large */
