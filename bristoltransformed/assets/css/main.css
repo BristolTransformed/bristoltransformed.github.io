@@ -1486,7 +1486,7 @@ input, select, textarea {
 		input[type="reset"].medium,
 		button.medium,
 		.button.medium {
-			font-size: 1.25em;
+			font-size: 1.3em;
 			padding: 1em 2.25em;
 		}
 
@@ -1495,7 +1495,7 @@ input, select, textarea {
 		input[type="reset"].large,
 		button.large,
 		.button.large {
-			font-size: 1.5em;
+			font-size: 1.3em;
 			padding: 1em 2.25em;
 		}
 
@@ -1528,9 +1528,9 @@ input, select, textarea {
 	dl.contact dt {
 		display: block;
 		text-transform: uppercase;
-		font-weight: 700;
+		font-weight: 600;
 		letter-spacing: 0.065em;
-		font-size: 0.9em;
+		font-size: 1.3em;
 		color: #696969;
 		float: left;
 		width: 6em;
@@ -1702,7 +1702,7 @@ input, select, textarea {
 			#nav > ul > li > a, #nav > ul > li > span {
 				color: #fff;
 				text-decoration: none;
-				font-weight: 700;
+				font-weight: 600;
 				font-size: 1.3em;
 				letter-spacing: 0.03em;
 				padding: 0.5em 0.8em 0.5em 0.8em;
@@ -1741,8 +1741,9 @@ input, select, textarea {
 		.dropotron a, .dropotron span {
 			color: #fff;
 			text-decoration: none;
-			font-weight: 800;
-			font-size: 0.8em;
+			text-transform: uppercase;
+			font-weight: 600;
+			font-size: 1em;
 			letter-spacing: 0.075em;
 			outline: 0;
 		}
