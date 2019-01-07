@@ -1880,7 +1880,7 @@ input, select, textarea {
 	#header {
 		position: relative;
 		background: rgba(255, 255, 255, 0.1);
-		padding: 4.5em 0 1em 0;
+		padding: 0em 0 1em 0;
 		margin-bottom: 0;
 	}
 
@@ -1979,7 +1979,7 @@ input, select, textarea {
 		/* Wrappers */
 
 			#header-wrapper {
-				padding: 4.5em 0 1em 0;
+				padding: 0em 0 1em 0;
 			}
 
 			body.homepage #header-wrapper {
@@ -2228,6 +2228,7 @@ input, select, textarea {
 		/* Wrappers */
 
 			#header-wrapper {
+				padding: 0em 0 1em 0;
 				display: none;
 			}
 
