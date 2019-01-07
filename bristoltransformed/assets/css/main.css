@@ -2115,6 +2115,7 @@ input, select, textarea {
 						line-height: 44px;
 						text-align: center;
 						color: #fff;
+						content: '\f0c9';
 					}
 
 					#titleBar .toggle:active {
