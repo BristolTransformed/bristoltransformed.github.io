@@ -1731,8 +1731,6 @@ input, select, textarea {
 		position: relative;
 		background-color: #E74252;
 		background-color: rgba(231, 66, 82, 0.9);
-		border-radius: 8px;
-		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 0px 0px 2px rgba(255, 255, 255, 0.075), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.2), 0px 2px 14px 0px rgba(0, 0, 0, 0.4);
 		text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5);
 		padding: 1.5em;
 		line-height: 2.5em;
