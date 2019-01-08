@@ -328,6 +328,7 @@ input, select, textarea {
 
 		.row > .col-6 {
 			width: 50%;
+			align-items: flex-start;
 		}
 
 		.row > .off-6 {
@@ -336,6 +337,7 @@ input, select, textarea {
 
 		.row > .col-7 {
 			width: 58.3333333333%;
+			align-items: flex-start;
 		}
 
 		.row > .off-7 {
