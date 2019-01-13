@@ -1448,7 +1448,6 @@ input, select, textarea {
 		position: relative;
 		display: inline-block;
 		background-color: #E74252;
-		text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5);
 		color: #fff !important;
 		text-decoration: none;
 		font-family: 'Oswald', sans-serif;
@@ -1736,7 +1735,6 @@ input, select, textarea {
 		position: relative;
 		background-color: #E74252;
 		background-color: rgba(231, 66, 82, 0.9);
-		text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5);
 		padding: 1.5em;
 		line-height: 2.5em;
 		min-width: 10em;
@@ -1861,7 +1859,6 @@ input, select, textarea {
 
 		.wrapper.style1 {
 			position: relative;
-			text-shadow: 1px 1px 0 #fff;
 			background-color: #fff;
 			background-image: url("images/bg03.png"), url("images/bg04.png"), url("images/bg02.png");
 			background-repeat: no-repeat, no-repeat, repeat;
@@ -1871,7 +1868,6 @@ input, select, textarea {
 
 		.wrapper.style3 {
 			position: relative;
-			text-shadow: 1px 1px 0 #fff;
 			background-color: #fff;
 			background-image: url("images/bg03.png"), url("images/bg02.png");
 			background-repeat: no-repeat, repeat;
@@ -1893,7 +1889,6 @@ input, select, textarea {
 			height: 5.5em;
 			background-color: #E74252;
 			background-color: rgba(231, 66, 82, 0.9);
-			text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5);
 		}
 
 		#header h1 {
@@ -1910,7 +1905,6 @@ input, select, textarea {
 
 	#footer {
 		margin-bottom: 0;
-		text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5);
 		position: relative;
 		z-index: 2;
 	}
@@ -2073,7 +2067,6 @@ input, select, textarea {
 				height: 44px;
 				left: 0;
 				position: fixed;
-				text-shadow: -1px -1px 0 black;
 				top: 0;
 				width: 100%;
 				z-index: 10001;
