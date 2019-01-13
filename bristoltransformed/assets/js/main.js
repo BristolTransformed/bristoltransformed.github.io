@@ -6,7 +6,7 @@
 
 (function($) {
 	
- var modalBtns = [...document.querySelectorAll(".button")];
+ var modalBtns = [...document.querySelectorAll(".buttonsmall")];
 modalBtns.forEach(function(btn){
   btn.onclick = function() {
     var modal = btn.getAttribute('data-modal');
