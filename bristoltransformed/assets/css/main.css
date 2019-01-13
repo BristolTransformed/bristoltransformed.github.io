@@ -2525,7 +2525,7 @@ input, select, textarea {
 
 /* Modal Header */
 .modal-header {
-  text-color: #fefefe;
+  color: #fefefe;
   padding: 2px 16px;
   background-color: #E74252;
   color: white;
