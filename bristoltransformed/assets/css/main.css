@@ -2536,8 +2536,8 @@ input, select, textarea {
 
 /* Modal Footer */
 .modal-footer {
-  color: #fefefe;
-  padding: 2px 16px;
+  font-color: #fefefe;
+  padding: 16px 16px;
   background-color: #E74252;
   color: white;
 }
