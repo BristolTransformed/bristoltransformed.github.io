@@ -1438,97 +1438,97 @@ input, select, textarea {
 	input[type="buttonsmall"],
 	input[type="submit"],
 	input[type="reset"],
-	buttonsmall,
-	.buttonsmall {
-	    -moz-transition: background-color 0.2s ease-in-out;
-	    -webkit-transition: background-color 0.2s ease-in-out;
-	    -ms-transition: background-color 0.2s ease-in-out;
-	    transition: background-color 0.2s ease-in-out;
-	    -webkit-appearance: none;
-	    position: relative;
-	    display: inline-block;
-	    background-color: #E74252;
-	    color: #fff !important;
-	    text-decoration: none;
-	    font-family: 'Oswald', sans-serif;
-	    font-weight: 400;
-	    font-size: 1em;
-	    letter-spacing: 0.03em;
-	    padding: 0.5em 1em;
-	    outline: 0;
-	    border: 0;
-	    white-space: nowrap;
-	    cursor: pointer;
+	button,
+	.button {
+		-moz-transition: background-color 0.2s ease-in-out;
+		-webkit-transition: background-color 0.2s ease-in-out;
+		-ms-transition: background-color 0.2s ease-in-out;
+		transition: background-color 0.2s ease-in-out;
+		-webkit-appearance: none;
+		position: relative;
+		display: inline-block;
+		background-color: #E74252;
+		color: #fff !important;
+		text-decoration: none;
+		font-family: 'Oswald', sans-serif;
+		font-weight: 600;
+		font-size: 1.3em;
+		letter-spacing: 0.03em;
+		padding: 0.5em 1em;
+		outline: 0;
+		border: 0;
+		white-space: nowrap;
+		cursor: pointer;
 	}
 
-	input[type="buttonsmall"].icon:before,
-	input[type="submit"].icon:before,
-	input[type="reset"].icon:before,
-	button.icon:before,
-	.button.icon:before {
-	    opacity: 0.5;
- 	   margin-right: 0.5em;
-	    position: relative;
-	    top: 0.05em;
-	}
+		input[type="buttonsmall"].icon:before,
+		input[type="submit"].icon:before,
+		input[type="reset"].icon:before,
+		button.icon:before,
+		.button.icon:before {
+			opacity: 0.5;
+			margin-right: 0.5em;
+			position: relative;
+			top: 0.05em;
+		}
 
-	input[type="buttonsmall"]:hover,
-	input[type="submit"]:hover,
-	input[type="reset"]:hover,
-	button:hover,
-	.button:hover {
-	    background-color: #C62131;
-	}
+		input[type="buttonsmall"]:hover,
+		input[type="submit"]:hover,
+		input[type="reset"]:hover,
+		button:hover,
+		.button:hover {
+			background-color: #C62131;
+		}
 
-	input[type="buttonsmall"]:active,
-	input[type="submit"]:active,
-	input[type="reset"]:active,
-	button:active,
-	.button:active {
-	    background-color: #E74252;
-	}
+		input[type="buttonsmall"]:active,
+		input[type="submit"]:active,
+		input[type="reset"]:active,
+		button:active,
+		.button:active {
+			background-color: #E74252;
+		}
 
-	input[type="buttonsmall"].medium,
-	input[type="submit"].medium,
-	input[type="reset"].medium,
-	button.medium,
-	.button.medium {
-	    font-size: 1.3em;
-	    padding: 1em 2.25em;
-	}
+		input[type="buttonsmall"].medium,
+		input[type="submit"].medium,
+		input[type="reset"].medium,
+		button.medium,
+		.button.medium {
+			font-size: 1.3em;
+			padding: 1em 2.25em;
+		}
 
-	input[type="buttonsmall"].large,
-	input[type="submit"].large,
-	input[type="reset"].large,
-	button.large,
-	.button.large {
-	    font-size: 1.3em;
-	    padding: 1em 2.25em;
-	}
+		input[type="buttonsmall"].large,
+		input[type="submit"].large,
+		input[type="reset"].large,
+		button.large,
+		.button.large {
+			font-size: 1.3em;
+			padding: 1em 2.25em;
+		}
 
-	input[type="buttonsmall"].alt,
-	input[type="submit"].alt,
-	input[type="reset"].alt,
-	button.alt,
-	.button.alt {
-	    background-color: #E74252;
-	}
+		input[type="buttonsmall"].alt,
+		input[type="submit"].alt,
+		input[type="reset"].alt,
+		button.alt,
+		.button.alt {
+			background-color: #E74252;
+		}
 
-	input[type="buttonsmall"].alt:hover,
-	input[type="submit"].alt:hover,
-	input[type="reset"].alt:hover,
-	button.alt:hover,
-	.button.alt:hover {
-		background-color: #C62131;
-	}
+			input[type="buttonsmall"].alt:hover,
+			input[type="submit"].alt:hover,
+			input[type="reset"].alt:hover,
+			button.alt:hover,
+			.button.alt:hover {
+				background-color: #C62131;
+			}
 
-	input[type="buttonsmall"].alt:active,
-	input[type="submit"].alt:active,
-	input[type="reset"].alt:active,
-	button.alt:active,
-	.button.alt:active {
-		background-color: #C62131;
-	}
+			input[type="buttonsmall"].alt:active,
+			input[type="submit"].alt:active,
+			input[type="reset"].alt:active,
+			button.alt:active,
+			.button.alt:active {
+				background-color: #C62131;
+			}
 
 
 
