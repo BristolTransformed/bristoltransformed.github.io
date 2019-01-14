@@ -1561,8 +1561,8 @@ input, select, textarea {
 		input[type="buttonsmall"].icon:before,
 		input[type="submit"].icon:before,
 		input[type="reset"].icon:before,
-		button.icon:before,
-		.button.icon:before {
+		buttonsmall.icon:before,
+		.buttonsmall.icon:before {
 			opacity: 0.5;
 			margin-right: 0.5em;
 			position: relative;
@@ -1572,24 +1572,24 @@ input, select, textarea {
 		input[type="buttonsmall"]:hover,
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
-		button:hover,
-		.button:hover {
+		buttonsmall:hover,
+		.buttonsmall:hover {
 			background-color: #C62131;
 		}
 
 		input[type="buttonsmall"]:active,
 		input[type="submit"]:active,
 		input[type="reset"]:active,
-		button:active,
-		.button:active {
+		buttonsmall:active,
+		.buttonsmall:active {
 			background-color: #E74252;
 		}
 
 		input[type="buttonsmall"].medium,
 		input[type="submit"].medium,
 		input[type="reset"].medium,
-		button.medium,
-		.button.medium {
+		buttonsmall.medium,
+		.buttonsmall.medium {
 			font-size: 1.3em;
 			padding: 1em 2.25em;
 		}
@@ -1597,8 +1597,8 @@ input, select, textarea {
 		input[type="buttonsmall"].large,
 		input[type="submit"].large,
 		input[type="reset"].large,
-		button.large,
-		.button.large {
+		buttonsmall.large,
+		.buttonsmall.large {
 			font-size: 1.3em;
 			padding: 1em 2.25em;
 		}
@@ -1606,24 +1606,24 @@ input, select, textarea {
 		input[type="buttonsmall"].alt,
 		input[type="submit"].alt,
 		input[type="reset"].alt,
-		button.alt,
-		.button.alt {
+		buttonsmall.alt,
+		.buttonsmall.alt {
 			background-color: #E74252;
 		}
 
 			input[type="buttonsmall"].alt:hover,
 			input[type="submit"].alt:hover,
 			input[type="reset"].alt:hover,
-			button.alt:hover,
-			.button.alt:hover {
+			buttonsmall.alt:hover,
+			.buttonsmall.alt:hover {
 				background-color: #C62131;
 			}
 
 			input[type="buttonsmall"].alt:active,
 			input[type="submit"].alt:active,
 			input[type="reset"].alt:active,
-			button.alt:active,
-			.button.alt:active {
+			buttosmalln.alt:active,
+			.buttonsmall.alt:active {
 				background-color: #C62131;
 			}
 
