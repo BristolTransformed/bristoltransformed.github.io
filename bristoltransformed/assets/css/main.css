@@ -1426,13 +1426,9 @@ input, select, textarea {
 		.image.centered {
 			display: block;
 			margin: 0 0 2.5em 0;
+			width: 70%;
+
 		}
-
-			.image.centered img {
-				margin: 0 auto;
-				width: auto;
-			}
-
 /* Button */
 
 	input[type="button"],
