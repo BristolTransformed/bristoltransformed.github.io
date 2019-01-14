@@ -1470,7 +1470,10 @@ input, select, textarea {
 			opacity: 0.5;
 			margin-right: 0.5em;
 			position: relative;
-			top: 0.05em;
+			font-weight: 400;
+			font-size: .9em;
+			letter-spacing: 0.03em;
+			padding: .5em 1em;
 		}
 
 		input[type="button"]:hover,
