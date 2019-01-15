@@ -1870,10 +1870,9 @@ input, select, textarea {
 			border: solid 1px rgba(255, 255, 255, 0.25);
 			border-left: 0;
 			border-right: 0;
-			color: #fff;
-			color: rgba(255, 255, 255, 0.75);
+			color: #404248;
 			font-family: 'Oswald', sans-serif;
-			font-size: 2.35em;
+			font-size: 3em;
 			font-weight: 700;
 			line-height: 1.3em;
 			margin: 0 0 1.5em 0;
@@ -1904,8 +1903,7 @@ input, select, textarea {
 
 		#banner p {
 			text-transform: uppercase;
-			color: #fff;
-			color: rgba(255, 255, 255, 0.75);
+			color: #404248;
 			font-size: 1.5em;
 			font-weight: 700;
 			line-height: 1.3em;
