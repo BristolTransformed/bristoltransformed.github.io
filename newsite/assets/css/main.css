@@ -1892,7 +1892,6 @@ input, select, textarea {
 			-webkit-font-smoothing: antialiased;
 			display: inline-block;
 			font-family: FontAwesome;
-			font-style: normal;
 			font-variant: normal;
 			text-rendering: auto;
 			line-height: 1;
@@ -2619,8 +2618,6 @@ input, select, textarea {
 						-webkit-font-smoothing: antialiased;
 						display: inline-block;
 					        font-family: FontAwesome; 
-						font-style: normal;
-						font-variant: normal;
 						text-rendering: auto;
 						line-height: 1;
 						text-transform: none !important;
