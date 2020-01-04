@@ -1683,7 +1683,7 @@ input, select, textarea {
 			input[type="reset"].style1:hover,
 			button.style1:hover,
 			.button.style1:hover {
-				background-color: #C62131;
+				background-color: #f76d71;
 			}
 
 			input[type="button"].style1:active,
@@ -1727,6 +1727,9 @@ input, select, textarea {
 		.button.style3 {
 			background: #2f333b url("images/overlay.png");
 			color: #fff;
+		        font-weight: 900;
+			border-radius: 0.7em;
+			padding: 0.5em 3em 0.5em 3em;
 		}
 
 			input[type="button"].style3:hover,
