@@ -647,6 +647,7 @@
 		text-decoration: none;
 
 		&:before {
+			font-family: FontAwesome;
 			line-height: inherit;
 			font-size: 1.25em;
 		}
@@ -895,6 +896,15 @@
 					transition: all .25s ease-in-out;
 					outline: 0;
 				}
+
+
+
+
+				&:before {
+					font-family: FontAwesome;
+
+					}
+
 
 				&:hover {
 					> a {
