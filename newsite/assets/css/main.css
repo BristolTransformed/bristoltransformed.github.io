@@ -1727,10 +1727,9 @@ input, select, textarea {
 		.button.style3 {
 			background: #2f333b url("images/overlay.png");
 			color: #fff;
-			font-size: 1.3em;
+			font-size: 1.7em;
 		        font-weight: 700;
-			border-radius: 0.7em;
-			padding: 1em 3em 1em 3em;
+			border-radius: 0.7em;;
 		}
 
 			input[type="button"].style3:hover,
@@ -2029,6 +2028,10 @@ input, select, textarea {
 			.wrapper.style2 .title {
 				background: #fff;
 				color: #484d55;
+			}
+
+			.wrapper.style2 .image {
+				border: solid 10px #fff;
 			}
 
 		.wrapper.style3 {
