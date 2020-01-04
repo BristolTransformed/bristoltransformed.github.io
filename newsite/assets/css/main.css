@@ -1801,6 +1801,18 @@ input, select, textarea {
 			padding-left: 0.25em;
 		}
 
+	ul.divided li {
+		border-top: solid 1px #eee;
+		padding: 0.5em 0 0 0;
+		margin: 0.5em 0 0 0;
+	}
+
+		ul.divided li:first-child {
+			border-top: 0 !important;
+			padding-top: 0 !important;
+			margin-top: 0 !important;
+		}
+
 /* Actions */
 
 	ul.actions {
