@@ -1977,48 +1977,7 @@ input, select, textarea {
 		padding: 6em 0 9em 0;
 	}
 
-		.wrapper .title {
-			position: absolute;
-			top: 0;
-			left: 50%;
-			text-align: center;
-			text-transform: uppercase;
-			display: block;
-			font-weight: 700;
-			letter-spacing: 0.25em;
-			font-size: 0.9em;
-			width: 25em;
-			height: 3.25em;
-			top: -3.25em;
-			line-height: 3.25em;
-			margin-bottom: -3.25em;
-			margin-left: -12.5em;
-			padding-top: 0.5em;
-		}
 
-			.wrapper .title:before {
-				content: '';
-				position: absolute;
-				bottom: -38px;
-				left: -35px;
-				width: 35px;
-				height: 38px;
-				background: url("images/shadow.png");
-			}
-
-			.wrapper .title:after {
-				-moz-transform: scaleX(-1);
-				-webkit-transform: scaleX(-1);
-				-ms-transform: scaleX(-1);
-				transform: scaleX(-1);
-				content: '';
-				position: absolute;
-				bottom: -38px;
-				right: -35px;
-				width: 35px;
-				height: 38px;
-				background: url("images/shadow.png");
-			}
 
 		.wrapper.style1 {
 			background: #C62131 url("images/overlay.png");
@@ -2026,10 +1985,6 @@ input, select, textarea {
 			color: rgba(255, 255, 255, 0.75);
 		}
 
-			.wrapper.style1 .title {
-				background: #C62131 url("images/overlay.png");
-				color: #fff;
-			}
 
 			.wrapper.style1 h1, .wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5, .wrapper.style1 h6, .wrapper.style1 strong, .wrapper.style1 b, .wrapper.style1 a {
 				color: #fff;
@@ -2052,10 +2007,7 @@ input, select, textarea {
 			background: #f3f3f3 url("images/overlay.png");
 		}
 
-			.wrapper.style3 .title {
-				background: #f3f3f3 url("images/overlay.png");
-				color: #484d55;
-			}
+			
 
 			.wrapper.style3 .image {
 				border: solid 10px #fff;
