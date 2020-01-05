@@ -2777,6 +2777,14 @@ input, select, textarea {
 				max-width: 30em;
 				margin: 0 auto;
 			}
+			.button.style3 {
+				background: #2f333b url("images/overlay.png");
+				color: #fff;
+				font-size: 1em;
+		 		font-weight: 600;
+				border-radius: 0.5em;;
+			}
+
 
 		/* Actions */
 
