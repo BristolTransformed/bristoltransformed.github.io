@@ -2143,8 +2143,6 @@ input, select, textarea {
 
 		#nav > ul {
 			display: inline-block;
-			border-radius: 0.35em;
-			box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
 			padding: 0 1.5em 0 1.5em;
 		}
 
@@ -2189,7 +2187,6 @@ input, select, textarea {
 		background: #222835 url("images/overlay.png");
 		background-color: rgba(44, 50, 63, 0.925);
 		padding: 1.25em 1em 1.25em 1em;
-		border-radius: 0.35em;
 		box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
 		min-width: 12em;
 		text-align: left;
