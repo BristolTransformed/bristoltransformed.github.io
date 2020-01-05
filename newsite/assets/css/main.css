@@ -2217,7 +2217,6 @@ input, select, textarea {
 			text-decoration: none;
 			font-size: 0.7em;
 			letter-spacing: 0.25em;
-			border-top: solid 1px rgba(255, 255, 255, 0.15);
 			line-height: 3em;
 		}
 
