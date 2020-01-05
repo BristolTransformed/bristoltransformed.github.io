@@ -1,4 +1,4 @@
-@import url("font-awesome.min.css");
+@import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700,900");
 
 /*
@@ -117,6 +117,8 @@ input, select, textarea {
 		}
 	h1 {
 		font-size: 2em;
+		letter-spacing: 0.25em;
+
 		}
 	a {
 		-moz-transition: color .25s ease-in-out;
@@ -1907,7 +1909,6 @@ input, select, textarea {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
 			display: inline-block;
-			font-family: FontAwesome;
 			font-variant: normal;
 			text-rendering: auto;
 			line-height: 1;
@@ -1928,9 +1929,6 @@ input, select, textarea {
 			font-weight: 900;
 		}
 
-		.icon.brands:before {
-			font-family: FontAwesome;
-		}
 
 /* Box */
 
@@ -2636,7 +2634,6 @@ input, select, textarea {
 						-moz-osx-font-smoothing: grayscale;
 						-webkit-font-smoothing: antialiased;
 						display: inline-block;
-					        font-family: FontAwesome; 
 						text-rendering: auto;
 						line-height: 1;
 						text-transform: none !important;
