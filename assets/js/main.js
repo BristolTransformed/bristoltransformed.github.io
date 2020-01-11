@@ -1,11 +1,10 @@
 /*
-	ZeroFour by HTML5 UP
+	Escape Velocity by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
 (function($) {
-
 
 	var	$window = $(window),
 		$body = $('body');
@@ -27,10 +26,9 @@
 
 	// Dropdowns.
 		$('#nav > ul').dropotron({
-			offsetY: -22,
 			mode: 'fade',
 			noOpenerFade: true,
-			speed: 300,
+			alignment: 'center',
 			detach: false
 		});
 
@@ -40,7 +38,7 @@
 			$(
 				'<div id="titleBar">' +
 					'<a href="#navPanel" class="toggle"></a>' +
-					'<span class="title">' + $('#logo').html() + '</span>' +
+					'<span class="title">' + $('#logo h1').html() + '</span>' +
 				'</div>'
 			)
 				.appendTo($body);
@@ -65,27 +63,4 @@
 					visibleClass: 'navPanel-visible'
 				});
 
-
-	
-	var modalBtns = [...document.querySelectorAll(".buttonsmall")];
-	modalBtns.forEach(function(btn){
-  		btn.onclick = function() {
- 	   		var modal = btn.getAttribute('data-modal');
-	document.getElementById(modal).style.display = "block";
- 	 	}
-	});
-
-	var closeBtns = [...document.querySelectorAll(".close")];
-	closeBtns.forEach(function(btn){
-  		btn.onclick = function() {
-    			var modal = btn.closest('.modal');
-    			modal.style.display = "none";
-  		}
-	});
-
-	window.onclick = function(event) {
-  		if (event.target.className === "modal") {
-    			event.target.style.display = "none";
-  		}
-	}
 })(jQuery);
