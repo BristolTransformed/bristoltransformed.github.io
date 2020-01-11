@@ -1,0 +1,197 @@
+<!DOCTYPE HTML>
+<!--
+	Escape Velocity by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Bristol Transformed</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="icon" href="images/BT.png">
+		<link rel="image_src" href="images/btwebholder.png" / >
+
+	</head>
+	<body class="homepage is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<section id="header" class="wrapper">
+
+					<!-- Logo -->
+						<div id="logo">
+							<a href="#" class="image featured">
+								<img src="images/BT_Logo_Final_Full_White_Transparent.png" alt="" width="65%" />
+							</a>
+						</div>
+
+									<!-- Nav -->
+										<nav id="nav">
+											<ul>
+												<li><a href="events">Events</a>
+												</li>
+												<li><a href="sounds">Recordings</a></li></a> 
+												<li><a href="about">About</a></li></a> 
+												<!-- <li><a href="https://www.headfirstbristol.co.uk/#date=2019-04-05&event_id=51166">Tickets</a></li>-->
+												<li><a class="icon brands fa-twitter" href="https://www.twitter.com/briztransformed" target="_blank" ><span class="label">Twitter</span></a></li>
+												<li><a class="icon brands fa-facebook" href="https://www.facebook.com/bristoltransformed" target="_blank" ><span class="label">Facebook</span></a></li>
+											</ul>
+										</nav>
+				</section>
+
+			<!-- Intro -->
+				<section id="intro" class="wrapper style1">
+					<h1>About</h1>
+				<div class="container">
+								<div class="row">
+									<div class="col-8 col-12-medium">
+										<div id="content">
+
+											<!-- Content -->
+
+												<article>
+													<a href="index.html" class="image featured"><img src="images/btheader.jpg" alt="" /></a>
+
+													<p>Bristol Transformed is a festival of politics and culture in which we will discuss and engage with the exciting ideas and innovations emerging from the Left. It is inspired by the World Transformed festival, which takes place alongside the Labour Party conference, and is planned and run by a group of volunteers. We were impressed by the quality and diversity of the the program, the parties and the audience, and we want to bring that spirit to Bristol!</p>
+
+
+													<h3>People Powered Communities</h3>
+													<p>Our theme is People Powered Politics, and we will be putting on a number of panels, workshops and social events exploring matters like public ownership, co-ops, climate change, race, trade unionism, gentrification and alternative media. Bristol faces growing inequality, rising living costs, increasingly visible homelessness and the threat or closure of a number of music venues, arts centers and clubs which have contributed to the spirit of the city. For too long we have lived under the shadow of Capitalist Realism, which tells us that there is no alternative to the way things are, regardless of it it’s what we want, or if it allows us to live in a happy or healthy society. This notion is starting to break down, and we want people to join together from across a broad range of backgrounds and perspectives to open their minds to the possibilities on the horizon that you don’t normally get to hear about from the education system or the media. We want to inspire people with a positive vision for the future and help illustrate how it can be achieved by working together, showing what people power is capable of.</p>
+											        </article>
+
+										</div>
+									</div>
+									<div class="col-4 col-12-medium">
+										<div id="sidebar">
+
+											<!-- Sidebar -->
+
+												<section>
+													<h2>The Organisers</h2>
+													<p>Bristol Transformed is only possible due to the hard work of volunteers.</p>
+													<p>The core organising team are:</p>
+													 <p>
+														Darran Mclaughlin</br>
+														Glyn Everett</br>
+														Hannah Little</br>
+														Isaac Kneebone Hopkins</br>
+														Jack Witek</br>
+														Kiah Tasman</br>
+														Kulsoom Jafri</br>
+														Leigh-Ann Clarke</br>
+														Shona Jemphrey</br>
+														Tom Pearce</br>
+														Zoe Goodman</br>
+														Charlie Owen-Caw</br>
+														Tin Hinson</br>
+</br>
+To volunteer to help with both the organising and running of Bristol Transformed click here:</br></br>
+														<a href="https://docs.google.com/forms/d/e/1FAIpQLSdbQOXH2hadTa0yZU07OMDB5OJc78TCMY90j4ljF8cWBkvMBw/viewform?usp=sf_link" target="_blank" class="button large icon fa-group">Volunteer</a>
+
+													</p>
+
+
+
+												</section>
+
+
+										</div>
+									</div>
+								</div>
+
+
+			<!-- Footer -->
+				<section id="footer" class="wrapper">
+					<div class="container">
+					<header class="style1">
+						<div class="row">
+							<div class="col-4 col-12-medium imp-medium">
+
+								<!-- Links -->
+									<section>
+										<h2>Funders</h2>
+										<ul class="divided">
+											<li></li><li></li>			
+											<li><a href="http://momentumbristol.org/">Momentum</a></li>
+											<li><a href="http://www.raymondwilliamsfoundation.org.uk/">Raymond Williams Foundation</a></li>
+											<li><a href="https://unitetheunion.org/">Unite</a></li>
+											<li><a href="https://www.unison.org.uk/">Unison</a></li>
+											<li><a href="https://www.cwu.org/">CWU</a></li>
+											<li><a href="https://neu.org.uk/">NEU</a></li>
+											<li><a href="https://www.ucu.org.uk/">UCU</a></li>
+											<li>Bristol West CLP</li>
+											<li>Bristol East CLP</li>
+											<li>Bristol South CLP</li>
+											<li>&nbsp;</li>
+										</ul>
+									</section>
+							</div>
+
+
+								<!-- Links -->
+							<div class="col-4 col-12-medium imp-medium">
+
+									<section>
+										<h2>Media Partners</h2>
+										<ul class="divided">
+											<li></li><li></li>			
+											<li><a href="https://tribunemag.co.uk/"><img src="images/tribune.png" alt="Tribune Logo" width="200"></a></li>
+											<li><a href="https://www.redpepper.org.uk/"><img src="images/red-pepper.png" alt="Red Pepper Logo" width="250"></a></li>
+											<li><a href="https://www.plutobooks.com//"><img src="images/pluto.png" alt="Pluto Books Logo" width="250"></a></li>
+											<li><a href="https://soundcloud.com/reelpolitikpodcast"><img src="images/rp.png" alt="Reel Politik Logo" width="130"></a><a href="https://trashfuturepodcast.podbean.com/"><img src="images/tf.png" alt="TrashFuture Logo" width="150"></a></li>
+											<li><a href="https://repeaterbooks.com/"><img src="images/repeat.png" alt="Repeater Books Logo" width="180"></a></li>
+											<li><a href="mailto:bristoltransformed@gmail.com">Want to partner? Contact us!</a></li>
+										        <li>&nbsp;</li>
+										</ul>
+									</section>
+
+							</div>
+							<div class="col-4 col-12-medium imp-medium">
+
+								<!-- Contact -->
+									<section>
+										<h2>Contact</h2>
+										<ul class="divided">
+
+											<li></li><li></li>			
+											<li><a class="icon brands fa-twitter" href="https://www.twitter.com/BrizTransformed" target="_blank" >&nbsp;&nbsp;&nbsp;&nbsp;@BrizTransformed </a></li>
+														<li><a class="icon brands fa-facebook" href="https://www.facebook.com/bristoltransformed" target="_blank" >&nbsp;&nbsp;&nbsp;&nbsp;facebook.com/bristoltransformed</span></a></li>
+														<li><a class="icon fa-envelope" href="mailto:bristoltransformed@gmail.com">&nbsp;&nbsp;&nbsp;&nbsp;bristoltransformed@gmail.com</a></li>
+								                   				<li>&nbsp;</li>
+														<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdbQOXH2hadTa0yZU07OMDB5OJc78TCMY90j4ljF8cWBkvMBw/viewform?usp=sf_link" target="_blank" class="button large icon fa-group">Volunteer</a>
+
+													</ul>
+												
+
+									</section>
+
+							</div>
+						</div>
+						<div id="copyright">
+							<ul>
+								<li>&copy; Bristol Transformed. All rights reserved</li><li>Website: <a href="http://hlittle.com">Hannah Little</a></li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+					</div>
+
+										</section>
+										</section>
+												</div>
+												</div>
+
+
+		</div>
+		</div>
+
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
