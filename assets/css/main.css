@@ -215,7 +215,7 @@ input, select, textarea {
 
 .close {
 	background: #141414;
-	color: #FFFFFF;
+	color: #ff4545;
 	line-height: 25px;
 	position: absolute;
 	right: -12px;
