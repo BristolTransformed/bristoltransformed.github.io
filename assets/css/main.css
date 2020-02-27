@@ -1655,8 +1655,6 @@ input, select, textarea {
 		border: 0;
 	}
 
-
-
 /* Image */
 
 	.image {
@@ -2917,52 +2915,6 @@ input, select, textarea {
 						background-size: 100% 100%;
 					}
 
-
-	/* Force table to not be like tables anymore */
-	table, thead, tbody, th, td, tr { 
-		display: block; 
-	}
-	
-	/* Hide table headers (but not display: none;, for accessibility) */
-	thead tr { 
-		position: absolute;
-		top: -9999px;
-		left: -9999px;
-	}
-	
-	tr { border: 1px solid #ccc; }
-	
-	td { 
-		/* Behave  like a "row" */
-		border: none;
-		border-bottom: 1px solid #eee; 
-		position: relative;
-		padding-left: 50%; 
-	}
-	
-	td:before { 
-		/* Now like a table header */
-		position: absolute;
-		/* Top/left values mimic padding */
-		top: 6px;
-		left: 6px;
-		width: 45%; 
-		padding-right: 10px; 
-		white-space: nowrap;
-	}
-	
-	/*
-	Label the data
-	*/
-	
-
-	td:nth-of-type(1):before { content: "10.00-11.30"; }
-	td:nth-of-type(2):before { content: "12.00-13.30"; }
-	td:nth-of-type(3):before { content: "14.30-16.00"; }
-	td:nth-of-type(4):before { content: "16.30-18.0"; }
-	td:nth-of-type(5):before { content: "19.00-20.30"; }
-}
-
 		/* Header */
 
 			#header {
@@ -3076,3 +3028,4 @@ input, select, textarea {
 						}
 
 	}
+
