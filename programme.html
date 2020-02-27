@@ -60,10 +60,7 @@ table, th, td {
   border: 3px solid black;
   border-collapse: collapse;
 }
-div.tablecontainer
-{
-  overflow-x:hidden;
-}
+
 table {
   margin: 10px;
 }
@@ -73,6 +70,16 @@ th, td {
 th {
   text-align: left;
 }
+	
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+	/* Force table to not be like tables anymore */
+	table, thead, tbody, th, td, tr { 
+		display: block; 
+}
+	
 </style>
 </head>
 <body>
