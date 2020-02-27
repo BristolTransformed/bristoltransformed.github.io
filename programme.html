@@ -73,33 +73,54 @@ th {
 	
 @media only screen and (max-width: 800px) {
 	
-	#flip-scroll .cf:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
-	#flip-scroll * html .cf { zoom: 1; }
-	#flip-scroll *:first-child+html .cf { zoom: 1; }
-	
-	#flip-scroll table { width: 100%; border-collapse: collapse; border-spacing: 0; }
+	/* Force table to not be like tables anymore */
+	#no-more-tables table, 
+	#no-more-tables thead, 
+	#no-more-tables tbody, 
+	#no-more-tables th, 
+	#no-more-tables td, 
+	#no-more-tables tr { 
+		display: block; 
+	}
  
-	#flip-scroll th,
-	#flip-scroll td { margin: 0; vertical-align: top; }
-	#flip-scroll th { text-align: left; }
-	
-	#flip-scroll table { display: block; position: relative; width: 100%; }
-	#flip-scroll thead { display: block; float: left; }
-	#flip-scroll tbody { display: block; width: auto; position: relative; overflow-x: auto; white-space: nowrap; }
-	#flip-scroll thead tr { display: block; }
-	#flip-scroll th { display: block; text-align: right; }
-	#flip-scroll tbody tr { display: inline-block; vertical-align: top; }
-	#flip-scroll td { display: block; min-height: 1.25em; text-align: left; }
+	/* Hide table headers (but not display: none;, for accessibility) */
+	#no-more-tables thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
  
+	#no-more-tables tr { border: 1px solid #ccc; }
  
-	/* sort out borders */
+	#no-more-tables td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 50%; 
+		white-space: normal;
+		text-align:left;
+	}
  
-	#flip-scroll th { border-bottom: 0; border-left: 0; }
-	#flip-scroll td { border-left: 0; border-right: 0; border-bottom: 0; }
-	#flip-scroll tbody tr { border-left: 1px solid #babcbf; }
-	#flip-scroll th:last-child,
-	#flip-scroll td:last-child { border-bottom: 1px solid #babcbf; }
+	#no-more-tables td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+		text-align:left;
+		font-weight: bold;
+	}
+ 
+	/*
+	Label the data
+	*/
+	#no-more-tables td:before { content: attr(data-title); }
 }
+	
 	
 </style>
 </head>
@@ -127,11 +148,11 @@ th {
 <table style="width:90%">
   <tr>
 <th>SATURDAY</th>
-    <th>10.00-11.30</th> 
-    <th>12.00-13.30</th>
-    <th>14.30-16.00</th>
-    <th>16.30-18.00</th>
-    <th>19.00-20.30</th>
+    <th class="numeric">10.00-11.30</th> 
+    <th class="numeric">12.00-13.30</th>
+    <th class="numeric">14.30-16.00</th>
+    <th class="numeric">16.30-18.00</th>
+    <th class="numeric">19.00-20.30</th>
   </tr>
   <tr>
     <th>Malcolm X</td>
@@ -466,7 +487,7 @@ th {
 <h1>BT PARTY // 10pm-3am // KUUMBA CENTRE</h1>
 					<div class="container">
 						<ul class="actions">
-							<li><a href="https://www.headfirstbristol.co.uk/#date=2020-03-06&event_id=58254" class="button style3 large">Party Tickets</a></li>
+							<li><a href="https://l.facebook.com/l.php?u=http%3A%2F%2Fhdfst.uk%2FE61833%3Ffbclid%3DIwAR2l4pLPotajEVpN8kdMYWqgvRf4D4XSzef6r_PIDa_5bh6mkdlyoVqz5iI&h=AT2sB4MLlCE92HuyNFUT9p1hht5zHSplTDsFVNvwIJ84nxxi3I_sufmkBKkM50ZAxtuNLYwCnLdpEcfKKU5OlGqGsCfNsyCol2hv5qlsE7Ew-3SO5ruuSs0_jC50rDZEYUJJaj-w66K3u8rU9jfeaR-o">Party Tickets</a></li>
 						</ul>
 					</div>
 						<h1><br></h1>
@@ -478,11 +499,11 @@ th {
 <table style="width:90%">
   <tr>
 <th>SUNDAY</th>
-    <th>10.00-11.30</th> 
-    <th>12.00-13.30</th>
-    <th>14.30-16.00</th>
-    <th>16.30-18.00</th>
-    <th>18.30-21.00</th>
+    <th class="numeric">10.00-11.30</th> 
+    <th class="numeric">12.00-13.30</th>
+    <th class="numeric">14.30-16.00</th>
+    <th class="numeric">16.30-18.00</th>
+    <th class="numeric">18.30-21.00</th>
   </tr>
   <tr>
     <th>Malcolm X</td>
@@ -537,7 +558,7 @@ th {
 	<div>
 		<a href="#close" title="Close" class="close">X</a>
 		<h2>Towards Trans Liberation</h2>
-		<p>Description coming soon</p>
+		<p>In a time where relatively minor reforms to the Gender Recognition Act have created a moral panic around trans people’s participation in public life, it’s worth asking what the roots of transphobia are, and how it manifests today. LCTR Chair Torr and NUS Trans Officer Eden will help investigate socialist approaches for trans liberation, how trans phobia affects trans people materially and discursively, and what the socialist response and methods to combat these issues should be. This collaborative workshop will include developing practical means to identify transphobia, organise against it in your communities, CLPs and movements, and create a shared vision towards trans liberation through solidarity.</p>
 	</div>
 </div></td>
 	    <td><a href="#Right">How the Right Hate Women</a>
