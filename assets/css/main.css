@@ -46,9 +46,20 @@ blockquote, q {
 		content: none;
 	}
 
+
+table, th, td {
+  border: 3px solid black;
+  border-collapse: collapse;
+}
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  margin: 10px;
+}
+th, td {
+  padding: 5px;
+}
+th {
+  text-align: left;
 }
 
 body {
